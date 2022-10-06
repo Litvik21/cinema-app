@@ -41,7 +41,7 @@ and buy a ticket for a movie which falls into the shopping cart.
 7. Add Tomcat server to configuration and Fix it.
 8. Run project
 
-## 👀 Example of parameters for ConnectionUtil.class
+## 👀 Example of parameters for db.properties
 ``` java
     db.driver=com.mysql.cj.jdbc.Driver
     db.url=jdbc:mysql://localhost:3306/NameOfDataBase?useUnicode=true&serverTimezone=UTC

@@ -1,5 +1,6 @@
 package mate.academy.spring.model;
 
+import java.util.Arrays;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -34,7 +35,18 @@ public class Role {
     }
 
     public enum RoleName {
-        ADMIN,
-        USER
+        ADMIN("ADMIN"),
+        USER("USER");
+
+        private String role;
+        RoleName(String role) {
+            this.role = role;
+        }
+
+        public static RoleName toRole(String role) {
+            return Arrays.stream(values())
+                    .filter(r -> r.role.equalsIgnoreCase(role))
+                    .findFirst().orElse(null);
+        }
     }
 }

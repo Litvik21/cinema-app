@@ -1,8 +1,5 @@
 ## 📖 Description
-This app is look like simple visualisation of Cinema app.
-Where you can log in or register a new account as USER. Also
-you can see actual movies and sessions for them -> choose session 
-and buy a ticket for a movie which falls into the shopping cart.
+This app looks like a simple visualization of a Cinema app. Where you can log in or register a new account as USER. Also you can see actual movies and sessions for them -> choose a session and buy a ticket for a movie which falls into the shopping cart.
 
 ## 📋 Project structure
 **The project has an 3-Tier Architecture**
